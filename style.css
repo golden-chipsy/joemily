@@ -49,4 +49,53 @@ ul{
 ul li{
     list-style: none;
     margin-left: 62px;
+     margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: beige;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Franklin Gothic Medium';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid beige;
+    margin-top: 13px;
+    color: antiquewhite;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid antiquewhite;
+    margin-top: 13px;
+    color:antiquewhite ;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
 }
